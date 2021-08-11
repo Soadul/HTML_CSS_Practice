@@ -1,0 +1,77 @@
+/* header section imagme  */
+.headSec {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(243, 233, 233, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(image.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+.image {
+  height: 90px;
+  width: 170px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav ul a {
+  position: relative;
+  left: 80%;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Hahmlet", serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+  justify-content: space-evenly;
+}
+
+/* Change the color of links on hover */
+.topnav ul a:hover {
+  background-color: #c71013;
+  color: rgb(255, 255, 255);
+  transition: 1.5s;
+}
+.icons {
+  position: relative;
+  left: 40%;
+  padding-left: 16px;
+  color: #050505;
+  height: 80px;
+  width: 100px;
+  cursor: pointer;
+  display: inline;
+  justify-content: justify-end;
+  line-height: 100px;
+}
+
+.icons i{
+  padding-left: 10px;
+
+}
+
+#hostText {
+  position: relative;
+
+  margin: 100% 100% 100% 100%;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+    background-color: #070707;
+    color: rgb(255, 255, 255);
+  } */
